@@ -25,12 +25,15 @@ export default function NavBar() {
             </div>
             </ul>
             <ul className="nav2">
+                <div></div>
                 <a style={{fontSize:'4vh'}} href=""> Gwen</a>
                 <div className="iconNav ">
+                    <span> 
                     <a href="">Slot </a>
                     <a href="">Form </a>
                     <a href="">Classes </a>
                     <a href=""> Documentation</a>
+                    </span>
                     <a href="">Discover</a>
                     <a href="">News</a>
                 <a href=""><FontAwesomeIcon  style={{padding:'0 10px', fontSize:'2vh'}}  icon={faSearchengin}/></a>

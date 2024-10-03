@@ -203,17 +203,20 @@ text-transform: uppercase;
   .nav1 {
     display:none;
   }
+  .iconNav span {
+    display: none;
+  }
   .nav2{
-    display: block;
+    /* display: block; */
     text-align: center;
   }
   .nav2 .iconNav :last-child{
     display: none;
   }
   .nav2 a{
-    background-color: white;
+    /* background-color: white; */
     color: black;
-    padding:  2px 3px;
+    padding:  0px 3px;
   }
   
   /* -------------------Home--------------- */
